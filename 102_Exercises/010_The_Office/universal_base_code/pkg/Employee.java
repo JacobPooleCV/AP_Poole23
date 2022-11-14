@@ -44,7 +44,7 @@ public class Employee {
 	}
 
 	public void raiseSalary(int percent){	// Increases Employee salary by percent percent
-		salary = salary + (salary*(percent/100));	// Ex: Salary is 50,000 -> 	50,000 + (50,000 * (0.1)) This is a 10% increase
+		salary = salary + (salary*(percent/100.0));	// Ex: Salary is 50,000 -> 	50,000 + (50,000 * (0.1)) This is a 10% increase
 		return;
 	}
 
