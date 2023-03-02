@@ -24,7 +24,7 @@ class starter3 {
 
 	public static void addValuesInt(ArrayList<Integer> arr, int num){
 		for(int i = 0; i < num; i++){
-			arr.add(int)(Math.random()*100));
+			arr.add((int)(Math.random()*100));
 		}
 	}
 
