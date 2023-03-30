@@ -17,7 +17,7 @@ class starter {
 		// While you still have numbers left, find the smaller of the number you're on and the getMin of the rest of the array (not including the number you're on)
 	}
 
-	public static int getMax(int[] arr, int i){
+	public static int getMax(int[] arr, int i, int n){
 		// Parameter - arr is your array that you're searching through
 		// Parameter - i is the value you're currently on
 		// Return - Return the maximum of the entire array
