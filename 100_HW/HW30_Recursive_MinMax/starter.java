@@ -6,9 +6,9 @@ class starter {
 		// Print your array
 		// Print the minimum of your array
 		// Print the maximum of your array
-		
+
 	}
-	
+
 	public static int getMin(int[] arr, int i){
 		// Parameter - arr is your array that you're searching through
 		// Parameter - i is the value you're currently on
@@ -16,7 +16,7 @@ class starter {
 		// Base Case - When i reaches your length-1, return the minimum of the last 2 numbers
 		// While you still have numbers left, find the smaller of the number you're on and the getMin of the rest of the array (not including the number you're on)
 	}
-	
+
 	public static int getMax(int[] arr, int i, int n){
 		// Parameter - arr is your array that you're searching through
 		// Parameter - i is the value you're currently on
@@ -34,7 +34,7 @@ class starter {
 	public static void printArray(int[] arr){
 		System.out.println("------------------------");
 		for(int i: arr){
-			System.out.print(arr[i] + ", ");
+			System.out.print(i + ", ");
 		}
 		System.out.println();
 		System.out.println("------------------------");
